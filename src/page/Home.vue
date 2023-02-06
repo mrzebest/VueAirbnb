@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 import MaisonCardRow from '../components/MaisonCardRow.vue';
 
 export default {

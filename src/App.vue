@@ -1,10 +1,15 @@
 <template>
   <div id="app">
+    <header>
+      <header-row/>
+    </header>
     <maison-card-row/>
+    
   </div>
 </template>
 
 <script>
+import HeaderRow from './components/HeaderRow.vue';
 import MaisonCardRow from './components/MaisonCardRow.vue';
 import Home from './page/Home.vue';
 
@@ -12,17 +17,13 @@ export default {
   name: 'App',
   components: {
     Home,
-    MaisonCardRow
+    MaisonCardRow,
+    HeaderRow,
+    HeaderRow,
   }
 }
 </script>
 
 <style>
-  #app {
-  max-width: 400vh;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
 
-}
 </style>
