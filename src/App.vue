@@ -4,6 +4,8 @@
       <header-row/>
     </header>
     <maison-card-row/>
+    <maison-card-row/>
+    <maison-card-row/>
     
   </div>
 </template>
