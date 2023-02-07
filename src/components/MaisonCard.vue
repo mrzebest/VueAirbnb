@@ -30,8 +30,8 @@
 
 <style lang="scss">
         .maison--card{
-        width:20vh;
-        height: 30vh;
+        width:25vh;
+        height: 40vh;
 
         p{
             margin: 0px;

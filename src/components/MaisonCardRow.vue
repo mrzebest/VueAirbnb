@@ -1,9 +1,11 @@
 <template>
-    <div class="maison--row">
-        <div class="wrapper--card">
-            <maison-card v-for="(card, index) in 6" :key="index"/>
+    <div class="Container">
+        <div class="maison--row">
+            <div class="wrapper--card">
+                <maison-card v-for="(card, index) in 6" :key="index"/>
+            </div>
         </div>
-  </div>
+    </div>
 </template>
 
 <script>
@@ -18,6 +20,11 @@ export default {
 </script>
 
 <style lang="scss">
+.container{
+    width: 20vh;
+    height:10vh;
+    background-color:red;
+}
 .maison--row{
     .wrapper--card{
         display:flex;
