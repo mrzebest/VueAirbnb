@@ -10,7 +10,7 @@
 import MaisonCard from './MaisonCard.vue';
 
 export default {
-    name: "MaisonRow",
+    name: "MaisonCardRow",
     components : {
         MaisonCard
     }
@@ -19,7 +19,6 @@ export default {
 
 <style lang="scss">
     .maison--row{
-        width: 600vh;
         display:flex;
         justify-content: space-between;
         .wrapper--card {
