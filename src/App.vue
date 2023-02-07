@@ -20,8 +20,8 @@ export default {
   components: {
     Home,
     MaisonCardRow,
-    HeaderRow,
-    HeaderRow,
+    HeaderRow
+    
   }
 }
 </script>
