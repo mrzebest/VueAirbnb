@@ -7,20 +7,16 @@
 </template>
 
 <script>
-import HeaderComponent from './HeaderComponent.vue';
+import HeaderComponents from './HeaderComponents.vue';
 
 export default {
-    name : "HeaderRow",
-    components: {
-        HeaderComponent
+    name: "HeaderRow",
+    components : {
+        HeaderComponents
     }
 }
 </script>
 
-<style lang="scss">
-    .header--row{
-        .wrapper--header{
-            
-        }
-    }
+<style>
+
 </style>
