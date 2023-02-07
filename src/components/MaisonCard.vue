@@ -23,15 +23,9 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-export default {
-    // name : "MaisonCard",
-}
-=======
     export default {
         name:'MaisonCardRow',
     }
->>>>>>> df7450805573195f3ca2a6dfb9ad69271d70e062
 </script>
 
 <style lang="scss">
