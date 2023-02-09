@@ -1,38 +1,37 @@
 <template>
-  <div class="maison--card">
-    <div class="maison--image">
+    <div class="maison--card">
+        <div class="maison--image">
 
-    </div>
-    <div class="maison--informations">
-        <div class="top">
-            <p class="name">
-                Home
+        </div>
+        <div class="maison--informations">
+            <div class="top">
+                <p class="name"> name</p>
+                <p class="note">
+                    <span>
+                        4.5
+                    </span>
+                </p>
+            </div>
+            <p class="desc">
+                description
             </p>
-            <p class="note">
-                4.5
+            <p class="prix">
+                description
             </p>
         </div>
-        <p class="desc">
-            description
-        </p>
-        <p class="prix">
-            180 euros
-        </p>
     </div>
-  </div>
 </template>
 
 <script>
-export default {
-
-}
+    export default {
+        name:'MaisonCardRow',
+    }
 </script>
 
 <style lang="scss">
-
-    .maison--card{
-        width:30vh;
-        height: 30vh;
+        .maison--card{
+        width:25vh;
+        height: 40vh;
 
         p{
             margin: 0px;
