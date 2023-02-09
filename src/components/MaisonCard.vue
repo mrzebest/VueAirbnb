@@ -42,6 +42,7 @@
             height: 70%;
             background-size: cover;
             background-position: center;
+            border-radius: 3%;
         }
 
         .maison--informations{
