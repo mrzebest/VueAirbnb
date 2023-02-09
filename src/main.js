@@ -6,5 +6,5 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+createApp(App).mount('#app')
 
