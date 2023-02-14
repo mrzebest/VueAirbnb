@@ -2,7 +2,7 @@
     <div class="Container">
         <div class="maison--row">
             <div class="wrapper--card">
-                <maison-card v-for="(card, index) in 6" :key="index"/>
+                <maison-card v-for="(card, index) in 4" :key="index"/>
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@ export default {
 .container{
     width: 20vh;
     height:10vh;
-    background-color:red;
+  
 }
 .maison--row{
     .wrapper--card{

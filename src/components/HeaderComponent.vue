@@ -1,4 +1,6 @@
 <template>
+    <div class = "form">
+    <div class = "container">
     <div class="navbar">
        <div class="nav--left">
            <img class="logo"
@@ -6,12 +8,18 @@
                alt=""
            >
        </div>
+       <div class="insearch">
        <div class="search">
-           <input type="search" id="search" name="s" placeholder="">
+        N'importe où 
+        <span class="line">  </span>
+        Une Semaine
+        <span class="line">  </span>
+        Affiner vos recherches
        </div>
+    </div>
        <div class="nav--right">
         
-           <div class="nav--item">Mettre mon longement sur airbnb</div>
+           <div class="nav--item"> Mon longement sur airbnb</div>
             <div class="nav--item">
                 <div class="dropdown">
                     <button>
@@ -25,6 +33,8 @@
             </div>
         </div>
    </div>
+</div>
+</div>
 </template>
 
 <script>
@@ -34,6 +44,28 @@
     </script>
 
     <style>
+    .container  {
+        background-color:rgba(255, 255, 255, 0);
+       
+    }
+
+    .form {
+        height: 9vh;
+        box-shadow:  5px 2px 4px #00000018;
+        text-align: center;
+       
+    }
+
+    .line {
+        flex: 0 0 1px;
+    height: 24px;
+    width: 1px;
+    border-right: solid #00000018;
+    margin-left: 15px;
+    margin-right:15px;
+    text-align: left;
+    
+    }
 
     .user{
         height:20px;
@@ -51,13 +83,15 @@
 
     .navbar{
         display:flex;
-        border-bottom: 2px solid black;
+       margin-top: 12px;
         padding: 2vh;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        border-bottom: 2px solid black;
+        border-bottom: 2px ;
         padding:2vh;
+        
+    
     }
     .nav--left{
         padding-left:3vh;
@@ -74,16 +108,23 @@
         padding-right:2vh;
     }
 
-    #search{
+    .search{
     border-radius:1rem;
-    height: 4vh;
-    width:35vh;
+    height: 5vh;
+    width:70vh;
+    border: 1px solid  #00000018 ;
+    box-shadow:  5px 2px 4px #00000018;
+    line-height: 5px;
+        padding: 15px;    
+    
     }
+
     a {
     text-decoration: none;
     color: #000000;
     }
 
+   
 
 
     .dropdown{
@@ -98,7 +139,7 @@
         border-radius: 3rem;
         border: none;
         padding: 8px 16px;
-        background-color: #ff5470;
+        background-color: silver;
         color: white;
         transition: .3s;
         cursor: pointer;
