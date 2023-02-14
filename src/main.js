@@ -5,7 +5,6 @@ import './assets/main.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
-library.add(faUser, faUserSecret)
 
 createApp(App).mount('#app')
 
