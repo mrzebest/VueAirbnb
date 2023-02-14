@@ -21,13 +21,12 @@ export default {
 
 <style lang="scss">
 .maison--row {
-  width: 600vh;
-  display: flex;
-  justify-content: space-between;
   .wrapper--card {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 6vh;
+    padding: 4vh;
   }
 }
 </style>
