@@ -9,28 +9,31 @@
 </template>
 
 <script>
-import MaisonCard from './MaisonCard.vue';
+import MaisonCard from "./MaisonCard.vue";
 
 export default {
-    name: "MaisonRow",
-    components: {
-        MaisonCard
-    }
-}
+  name: "MaisonRow",
+  components: {
+    MaisonCard,
+  },
+};
 </script>
 
 <style lang="scss">
+<<<<<<< HEAD
 .container{
     width: 20vh;
     height:10vh;
   
-}
-.maison--row{
-    .wrapper--card{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 5vh;
-    }
+=======
+.maison--row {
+  .wrapper--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6vh;
+    padding: 4vh;
+  }
+>>>>>>> b51d930588f319926d903967ac1ace9172457ffa
 }
 </style>
