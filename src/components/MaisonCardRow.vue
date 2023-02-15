@@ -20,12 +20,6 @@ export default {
 </script>
 
 <style lang="scss">
-<<<<<<< HEAD
-.container{
-    width: 20vh;
-    height:10vh;
-  
-=======
 .maison--row {
   .wrapper--card {
     display: flex;
@@ -34,6 +28,5 @@ export default {
     margin-bottom: 6vh;
     padding: 4vh;
   }
->>>>>>> b51d930588f319926d903967ac1ace9172457ffa
 }
 </style>
