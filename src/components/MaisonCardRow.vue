@@ -25,14 +25,9 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-<<<<<<< HEAD
    margin-bottom: -7%;
     padding: 4vh;
     margin-top: 7vh;
-=======
-    margin-bottom: 6vh;
-    padding: 4vh;
->>>>>>> main
   }
 }
 </style>
