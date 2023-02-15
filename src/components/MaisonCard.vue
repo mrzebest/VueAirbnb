@@ -4,9 +4,13 @@
 
         </div>
         <div class="maison--informations">
+         
             <div class="top">
-                <p class="name"> name</p>
+            
+                <p class="name"><B>Name</B></p>
+           
                 <p class="note">
+                    <font-awesome-icon icon="fa-solid fa-star" />
                     <span>
                         4.5
                     </span>
@@ -23,15 +27,19 @@
 </template>
 
 <script>
+
     export default {
         name:'MaisonCardRow',
     }
+     
+
 </script>
+
 
 <style lang="scss">
         .maison--card{
-        width:25vh;
-        height: 40vh;
+        width:35vh;
+        height: 45vh;
 
         p{
             margin: 0px;
@@ -51,6 +59,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                
             }
         }
 

@@ -15,11 +15,16 @@
         Une Semaine
         <span class="line">  </span>
         Affiner vos recherches
+        <div class="loupe">
+    <span class="circle">
+        <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+    </span>
+        </div>
        </div>
     </div>
        <div class="nav--right">
         
-           <div class="nav--item"> Mon longement sur airbnb</div>
+           <div class="nav--item"> Mon longement sur Airbnb</div>
             <div class="nav--item">
                 <div class="dropdown">
                     <button>
@@ -53,7 +58,14 @@
         height: 9vh;
         box-shadow:  5px 2px 4px #00000018;
         text-align: center;
-       
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        margin-top:-1% ;
+    
+
+
     }
 
     .line {
@@ -67,15 +79,28 @@
     
     }
 
+    .loupe{
+
+      display: flex;
+        justify-content: center;
+        float: right;
+        background-color: #dc6075;
+     border-radius: 100%;
+     width: 3VH;
+     height: 3VH;
+     padding-top: 6px;
+     margin-left: 20PX;
+     color: white;
+     font-size: 1.6vh;
+        
+    }
+
+ 
     .user{
         height:20px;
         display:flex;
     }
 
-    header{
-        margin-bottom: 10vh;
-        
-    }
 
     .logo{
     height:30px;
@@ -83,13 +108,14 @@
 
     .navbar{
         display:flex;
-       margin-top: 12px;
+      
         padding: 2vh;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         border-bottom: 2px ;
         padding:2vh;
+        margin-top: 1%;
         
     
     }
@@ -116,8 +142,12 @@
     box-shadow:  5px 2px 4px #00000018;
     line-height: 5px;
         padding: 15px;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
     }
+    
 
     a {
     text-decoration: none;
