@@ -5,7 +5,7 @@
     </header>
     <filter-component/>
     <maison-card-row/>
-    <maison-card-row/>
+    <!-- <maison-card-row/> -->
     
   </div>
 </template>

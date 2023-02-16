@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "login": "aa",
+            "mdp": "aa",
+            "nom": "Alisha",
+            "idAnnonce": "1",
+            "commentaire":"On m'a conseillé et je n'en suis pas déçue du tout ! Je recommande",
+            "note": 5
+        },
+        {
+            "id": 2,
+            "login": "bb",
+            "mdp": "bb",
+            "nom": "Ahmed",
+            "idAnnonce": "1",
+            "commentaire":"Je conseille fortement !",
+            "note": 4
+        },
+        {
+            "id": 3,
+            "login": "cc",
+            "mdp": "cc",
+            "nom": "Hervé",
+            "idAnnonce": "2",
+            "commentaire":"On m'a dit qu'il était bien, je me suis retrouvé à la rue !",
+            "note": 1
+        },
+        {
+            "id": 4,
+            "login": "dd",
+            "mdp": "dd",
+            "nom": "Emma",
+            "idAnnonce": "2",
+            "commentaire":"Bien",
+            "note": 3
+        }
+    ]
+}

@@ -1,5 +1,4 @@
-<template>
-    <div class="maison--card">
+<template><!-- <div class="maison--card">
         <div class="maison--image">
 
         </div>
@@ -23,46 +22,44 @@
                 description
             </p>
         </div>
-    </div>
-</template>
+    </div> --></template>
 
 <script>
 
-    export default {
-        name:'MaisonCardRow',
-    }
-     
+export default {
+    name: 'MaisonCardRow',
+}
+
 
 </script>
 
 
 <style lang="scss">
-        .maison--card{
-        width:35vh;
-        height: 45vh;
+.maison--card {
+    width: 35vh;
+    height: 45vh;
 
-        p{
-            margin: 0px;
-        }
-
-        .maison--image{
-            background-image: url("../Images/Visuel5.jpg");
-            height: 70%;
-            background-size: cover;
-            background-position: center;
-            border-radius: 3px;
-        }
-
-        .maison--informations{
-            .top{
-                margin: 10px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                
-            }
-        }
-
+    p {
+        margin: 0px;
     }
 
+    .maison--image {
+        background-image: url("../Images/Visuel5.jpg");
+        height: 70%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 3px;
+    }
+
+    .maison--informations {
+        .top {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+    }
+
+}
 </style>
