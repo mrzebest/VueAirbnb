@@ -26,7 +26,8 @@ export default {
     align-items: center;
     justify-content: space-between;
     margin-bottom: -7%;
-    padding: 4vh;
+    padding: 2vh;
+    padding-bottom:10vh;
     margin-top: 7vh;
   }
 }
