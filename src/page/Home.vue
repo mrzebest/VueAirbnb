@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    
+
   </div>
 </template>
 
@@ -9,10 +9,10 @@
 import MaisonCardRow from '../components/MaisonCardRow.vue';
 
 export default {
-    name : 'Home',
-    components: {
-        MaisonCardRow
-    }
+  name: 'Home',
+  components: {
+    MaisonCardRow
+  }
 }
 </script>
 

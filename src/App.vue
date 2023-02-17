@@ -2,8 +2,9 @@
   <div id="app">
     <header>
       <header-row/>
+
     </header>
-    <filter-component/>
+    <filter-row/>
     <maison-card-row/>
     <maison-card-row/>
     
@@ -13,7 +14,8 @@
 <script>
 import HeaderRow from './components/HeaderRow.vue';
 import MaisonCardRow from './components/MaisonCardRow.vue';
-import FilterComponent from './components/FilterComponent.vue';
+// import FilterComponent from './components/FilterComponent.vue';
+import FilterRow from './components/FilterRow.vue';
 import Home from './page/Home.vue';
 
 
@@ -23,7 +25,8 @@ export default {
     Home,
     MaisonCardRow,
     HeaderRow,
-    FilterComponent
+    FilterRow
+    // FilterComponent
     
   }
 }
