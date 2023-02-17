@@ -1,7 +1,7 @@
 <template>
     <div class="contain">    
         <form action="">
-            <img src="/Images/logo.png" class="logo"><br><br>
+            <img src="/Images/logo.png" class="logo-connexion"><br><br>
             <input type="email" id="fname" name="firstname" placeholder="Adresse e-mail">
             
 
@@ -13,8 +13,9 @@
 
 <script>
 export default {
+ 
+  }
 
-}
 </script>
 
 <style>
@@ -75,7 +76,7 @@ input[type=submit]:hover {
   background-color: #dd7385;
 }
 
-.logo{
+.logo-connexion{
     height:20vh;
 }
 </style>

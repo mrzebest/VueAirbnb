@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue';
 
-// import router from './router'
+import router from './router'
 
 import "./assets/reset.css";
 import './assets/main.css';
@@ -23,6 +23,7 @@ import { faWaterLadder} from '@fortawesome/free-solid-svg-icons'
 import { faMountainSun} from '@fortawesome/free-solid-svg-icons'
 import { faPalette} from '@fortawesome/free-solid-svg-icons'
 import { faChessRook} from '@fortawesome/free-solid-svg-icons'
+// import { appendFile } from 'fs';
 // import { faPeopleSimple } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -41,7 +42,7 @@ library.add(faChessRook)
 
 
 
-createApp(App)
+createApp(App).use(router)
 .component('font-awesome-icon', FontAwesomeIcon)
 .mount('#app')
 

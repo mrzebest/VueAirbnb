@@ -1,13 +1,14 @@
+<script setup>
+import { RouterView } from 'vue-router';
+</script>
+
 <template>
   <div id="app">
-    <header>
+    <!-- <header>
       <header-row/>
 
-    </header>
-    <filter-row/>
-    <maison-card-row/>
-    <maison-card-row/>
-    
+    </header> -->
+    <RouterView/>
   </div>
 </template>
 
@@ -16,7 +17,7 @@ import HeaderRow from './components/HeaderRow.vue';
 import MaisonCardRow from './components/MaisonCardRow.vue';
 // import FilterComponent from './components/FilterComponent.vue';
 import FilterRow from './components/FilterRow.vue';
-import Home from './page/Home.vue';
+import Home from './views/Home.vue';
 
 
 export default {
@@ -25,7 +26,8 @@ export default {
     Home,
     MaisonCardRow,
     HeaderRow,
-    FilterRow
+    FilterRow,
+    RouterView
     // FilterComponent
     
   }

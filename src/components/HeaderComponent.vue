@@ -1,3 +1,4 @@
+
 <template>
     <div class="form">
         <div class="container">
@@ -28,8 +29,8 @@
                                 <img src="../assets/user.png" class="user">
                             </button>
                             <div>
-                                <a href="#">connexion</a>
-                                <a href="#">Inscription</a>
+                               <router-link to="/connexion">Connexion</router-link>
+                               <router-link to="/inscription">Inscription</router-link>
                             </div>
                         </div>
                     </div>
@@ -40,6 +41,7 @@
 </template>
 
 <script>
+
 export default {
     name: "HeaderComponents"
 }
@@ -97,7 +99,7 @@ export default {
 
 
 .logo {
-    height: 30px;
+    height: 5vh;
 }
 
 .navbar {
