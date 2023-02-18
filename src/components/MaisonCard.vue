@@ -7,10 +7,14 @@
          
             <div class="top">
             
-                <p class="name"><B>Name</B></p>
-           
+                <p class="name">
+                    <B>Name</B>br
+                    <Comment/>
+                </p>
+                
                 <p class="note">
                     <font-awesome-icon icon="fa-solid fa-star" />
+                    
                     <span>
                         4.5
                     </span>
@@ -20,16 +24,21 @@
                 description
             </p>
             <p class="prix">
-                description
+                prix
             </p>
+            
         </div>
     </div>
 </template>
 
 <script>
-
+import Comment from './Comment.vue';
     export default {
         name:'MaisonCardRow',
+
+        components: {
+            Comment
+        }
     }
      
 

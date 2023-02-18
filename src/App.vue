@@ -23,8 +23,7 @@ export default {
     Home,
     MaisonCardRow,
     HeaderRow,
-    FilterComponent
-    
+    FilterComponent,
   }
 }
 </script>

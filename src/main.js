@@ -21,7 +21,7 @@ import { faWaterLadder} from '@fortawesome/free-solid-svg-icons'
 import { faMountainSun} from '@fortawesome/free-solid-svg-icons'
 import { faPalette} from '@fortawesome/free-solid-svg-icons'
 import { faChessRook} from '@fortawesome/free-solid-svg-icons'
-
+import { faComment } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -33,6 +33,7 @@ library.add(faWaterLadder)
 library.add(faMountainSun)
 library.add(faPalette)
 library.add(faChessRook)
+library.add(faComment)
 
 
 

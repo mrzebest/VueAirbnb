@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "CMT": "ceci est un commentaire",
+      "id": 8
+    },
+    {
+      "CMT": "salut tout le monde",
+      "id": 9
+    },
+    {
+      "CMT": "Hi !",
+      "id": 10
+    }
+  ],
+  "profile": {
+    "CMT": "typicode"
+  },
+  "users": [
+    {
+      "name": "Raouf Douracove",
+      "email": "douracoveraouf@gmail.com"
+    }
+  ]
+}
