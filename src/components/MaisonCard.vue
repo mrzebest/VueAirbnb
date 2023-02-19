@@ -8,7 +8,7 @@
             <div class="top">
             
                 <p class="name">
-                    <B>Name</B>br
+                    <B>Name</B>
                     <Comment/>
                 </p>
                 
