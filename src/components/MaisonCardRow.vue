@@ -2,20 +2,18 @@
   <div class="Container">
     <div class="maison--row">
       <div class="wrapper--card">
-        <!-- <maison-card v-for="(card, index) in 4" :key="index"/> -->
-        <!-- <div class="maison--card"> -->
 
         <div v-for="annonce in annonces" class="maison--card">
           <div class="maison--image">
             <!-- <div v-for="img in annonce.images">
-                                      <img :src="img" class="img">
-                                  </div> -->
+                                                          <img :src="img" class="img">
+                                                      </div> -->
             <img :src="annonce.images[0]" class="img">
           </div>
           <div class="maison--informations">
             <div class="top">
               <p class="name">
-                {{ annonce.nom }}
+                <b> {{ annonce.nom }}</b>
               </p>
               <p class="desc">
                 {{ annonce.description }}
@@ -23,27 +21,28 @@
 
             </div>
             <p class="location">
+              Basé à :
               {{ annonce.location }}
             </p>
             <p class="equipements">
-            <p>Équipements :</p>
-            <li v-for="equip in annonce.equipements">
-              {{ equip }}
-            </li>
+              Équipements :
+              <span v-for="equip in annonce.equipements">
+                {{ equip }},
+              </span>
             </p>
             <p class="note">
-              <font-awesome-icon icon="fa-solid fa-star" />
               <span>
                 Note :
                 {{ annonce.note }}
               </span>
+              <font-awesome-icon icon="fa-solid fa-star" />
             </p>
           </div>
         </div>
       </div>
       <!-- </div> -->
     </div>
-</div>
+  </div>
 </template>
 
 <script>
@@ -78,41 +77,44 @@ export default {
     // padding: 4vh;
     // margin-top: 7vh;
     display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: -7%;
-      padding: 4vh;
-      margin-top: 7vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -7%;
+    padding: 4vh;
+    margin-top: 7vh;
   }
 }
 
 .maison--card {
-  // width: 35vh;
-  // height: 45vh;
   width: 50%;
-    height: 50%;
+  height: 50;
+  padding: 10px;
 
   p {
     margin: 0px;
   }
 
+  .desc {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
   .maison--image {
-    // background-image: url("../Images/Visuel5.jpg");
-    // height: 70%;
-    // background-size: cover;
-    // background-position: center;
-    // border-radius: 3px;
+    text-align: center;
   }
 
   .img {
     width: 50%;
+    height: 25vh;
+    border-radius: 10px;
   }
 
   .maison--informations {
     .top {
       margin: 10px 0;
-      align-items: center;
+      text-align: center;
       justify-content: space-between;
 
     }
