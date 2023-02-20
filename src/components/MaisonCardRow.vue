@@ -65,9 +65,8 @@ export default {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: -7%;
-    padding: 4vh;
-    margin-top: 7vh;
+    padding: 1vh;
+    margin-top: 3vh;
   }
 }
 
@@ -79,15 +78,15 @@ export default {
     margin: 0px;
   }
 
-  .desc {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
+  // .desc {
+  //   overflow: hidden;
+  //   white-space: nowrap;
+  //   text-overflow: ellipsis;
+  // }
 
-  .maison--image {
-    text-align: center;
-  }
+  // .maison--image {
+  //   text-align: center;
+  // }
 
   .img {
     width: 100%;
