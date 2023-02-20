@@ -1,0 +1,248 @@
+{
+    "annonces": [
+        {
+            "id": 1,
+            "nom": "Le Aiken Xperience - Maison de bambou unique",
+            "description": "Vivez la sensation de vivre dans une maison de bambou privée isolée sous trois montagnes au milieu du champ de riz de Jatiluwih. Parfait pour ceux qui recherchent différentes aventures à Bali. Depuis cette maison située avec des natures, vous rencontrerez de nombreuses espèces sauvages telles que des insectes, des insectes, des araignées, des serpents, des poissons, des oiseaux et bien d'autres. Si vous n'aimez pas ces choses, s'il vous plaît envisager ou le pire des cas NE RESTEZ PAS ICI. Je ne pourrai pas les éloigner tout le temps. Les animaux sont amis.",
+            "prix": "156 € par nuit",
+            "location": "Penebel, Bali, Indonésie",
+            "equipements": [
+                "Vue sur les montagnes",
+                "Front de mer",
+                "Jaccuzi privé",
+                "Cuisine",
+                "Parking gratuit"
+            ],
+            "images": [
+                "../src/Images/an1_1.jpg",
+                "../src/Images/an1_2.jpg",
+                "../src/Images/an1_3.jpg",
+                "../src/Images/an1_4.jpg",
+                "../src/Images/an1_5.jpg",
+                "../src/Images/an1_6.jpg",
+                "../src/Images/an1_7.jpg"
+            ],
+            "note" : 1
+        },
+        {
+            "id": 2,
+            "nom": "Vue imprenable sur Empire State avec 2 lits et vue imprenable",
+            "description": "Superbe appartement avec vue imprenable sur Manhattan et l'Empire State. Ne cherchez pas plus loin si vous avez besoin d'un accès rapide à Hudson Yards, Time Square, Hell 's Kitchen, Javits Center, le Summit Vanderbilt , Bryant Park, The Vessel et bien d'autres",
+            "prix": "651 € par nuit",
+            "location": "New York, États-Unis",
+            "equipements": [
+                "Ascenseur",
+                "Climatisation",
+                "Café",
+                "Cuisine",
+                "Cafetière : cafetière filtre"
+            ],
+            "images": [
+                "../src/Images/an2_1.jpg",
+                "../src/Images/an2_2.jpg",
+                "../src/Images/an2_3.jpg",
+                "../src/Images/an2_4.jpg",
+                "../src/Images/an2_5.jpg",
+                "../src/Images/an2_6.jpg",
+                "../src/Images/an2_7.jpg"
+            ],
+            "note" : 2
+        },
+        {
+            "id": 3,
+            "nom": "La Tour Eiffel scintillante dans un style grandiose !",
+            "description": "Vue spectaculaire sur la Tour Eiffel. Emplacement idéal sur la rive gauche avec accès facile au meilleur de Paris. Géré avec l'attention d'un hôtel 5 étoiles. Pas d'enfants entre 2 et 13 ans. Climatisé et rénové à un haut niveau de qualité",
+            "prix": "774 € par nuit",
+            "location": "Paris, Île-de-France, France",
+            "equipements": [
+                "Patio ou balcon",
+                "Climatisation",
+                "Cafetière",
+                "Cuisine",
+                "Télévision"
+            ],
+            "images": [
+                "../src/Images/an3_1.jpg",
+                "../src/Images/an3_2.jpg",
+                "../src/Images/an3_3.jpg",
+                "../src/Images/an3_4.jpg",
+                "../src/Images/an3_5.jpg",
+                "../src/Images/an3_6.jpg",
+                "../src/Images/an3_7.jpg",
+                "../src/Images/an3_8.jpg",
+                "../src/Images/an3_9.jpg",
+                "../src/Images/an3_10.jpg"
+            ],
+            "note" : 3
+        },
+        {
+            "id": 4,
+            "nom": "Cala Bona : merveilleux pays tropical caché à Canggu",
+            "description": "Cette ancienne propriété par Biombo Architects est magnifiquement nichée à Pererenan et n'est qu'à quelques pas des cafés, restaurants et plages bien connus. Cala Bona est une villa moderne qui se caractérise par des lignes pointues et un style contemporain qui offre un sentiment incomparable de vivre au milieu de la nature tout en combinant luxe, élégance et sens tropical tout en un. Cette exceptionnelle villa de quatre chambres dispose d'une piscine privée, d'une cuisine entièrement équipée et d'un salon.",
+            "prix": "495 € par nuit",
+            "location": "Kecamatan Mengwi, Bali, Indonésie",
+            "equipements": [
+                "Patio ou balcon : privé(s)",
+                "Climatisation : système split sans évacuation",
+                "Arrière-cour privée",
+                "Piscine Privé extérieure (disponible toute l'année, ouverture 24h/24)",
+                "Cuisine"
+            ],
+            "images": [
+                "../src/Images/an4_1.jpg",
+                "../src/Images/an4_2.jpg",
+                "../src/Images/an4_3.jpg",
+                "../src/Images/an4_4.jpg",
+                "../src/Images/an4_5.jpg",
+                "../src/Images/an4_6.jpg",
+                "../src/Images/an4_7.jpg",
+                "../src/Images/an4_8.jpg"
+            ],
+            "note" : 4
+        },
+        {
+            "id": 5,
+            "nom": "Følvika Eye (partie de Følvika Northern Retreat)",
+            "description": "Vue à 360 degrés depuis notre œil de Følvika. Convient à deux adultes - possibilité d'ajouter des matelas pour 1-2 enfants.",
+            "prix": "210 € par nuit",
+            "location": "Gildeskål, Nordland, Norvège",
+            "equipements": [
+                "Accès plage : privé(e)",
+                "Front de mer",
+                "Brasero",
+                "Patio ou balcon",
+                "Arrière-cour"
+            ],
+            "images": [
+                "../src/Images/an5_1.jpg",
+                "../src/Images/an5_2.jpg",
+                "../src/Images/an5_3.jpg",
+                "../src/Images/an5_4.jpg",
+                "../src/Images/an5_5.jpg"
+            ],
+            "note" : 5
+        },
+        {
+            "id": 6,
+            "nom": "Le Aiken Xperience - Maison de bambou unique",
+            "description": "Vivez la sensation de vivre dans une maison de bambou privée isolée sous trois montagnes au milieu du champ de riz de Jatiluwih. Parfait pour ceux qui recherchent différentes aventures à Bali. Depuis cette maison située avec des natures, vous rencontrerez de nombreuses espèces sauvages telles que des insectes, des insectes, des araignées, des serpents, des poissons, des oiseaux et bien d'autres. Si vous n'aimez pas ces choses, s'il vous plaît envisager ou le pire des cas NE RESTEZ PAS ICI. Je ne pourrai pas les éloigner tout le temps. Les animaux sont amis.",
+            "prix": "156 € par nuit",
+            "location": "Penebel, Bali, Indonésie",
+            "equipements": [
+                "Vue sur les montagnes",
+                "Front de mer",
+                "Jaccuzi privé",
+                "Cuisine",
+                "Parking gratuit"
+            ],
+            "images": [
+                "../src/Images/an1_1.jpg",
+                "../src/Images/an1_2.jpg",
+                "../src/Images/an1_3.jpg",
+                "../src/Images/an1_4.jpg",
+                "../src/Images/an1_5.jpg",
+                "../src/Images/an1_6.jpg",
+                "../src/Images/an1_7.jpg"
+            ],
+            "note" : 6
+        },
+        {
+            "id": 7,
+            "nom": "Vue imprenable sur Empire State avec 2 lits et vue imprenable",
+            "description": "Superbe appartement avec vue imprenable sur Manhattan et l'Empire State. Ne cherchez pas plus loin si vous avez besoin d'un accès rapide à Hudson Yards, Time Square, Hell 's Kitchen, Javits Center, le Summit Vanderbilt , Bryant Park, The Vessel et bien d'autres",
+            "prix": "651 € par nuit",
+            "location": "New York, États-Unis",
+            "equipements": [
+                "Ascenseur",
+                "Climatisation",
+                "Café",
+                "Cuisine",
+                "Cafetière : cafetière filtre"
+            ],
+            "images": [
+                "../src/Images/an2_1.jpg",
+                "../src/Images/an2_2.jpg",
+                "../src/Images/an2_3.jpg",
+                "../src/Images/an2_4.jpg",
+                "../src/Images/an2_5.jpg",
+                "../src/Images/an2_6.jpg",
+                "../src/Images/an2_7.jpg"
+            ],
+            "note" : 7
+        },
+        {
+            "id": 8,
+            "nom": "La Tour Eiffel scintillante dans un style grandiose !",
+            "description": "Vue spectaculaire sur la Tour Eiffel. Emplacement idéal sur la rive gauche avec accès facile au meilleur de Paris. Géré avec l'attention d'un hôtel 5 étoiles. Pas d'enfants entre 2 et 13 ans. Climatisé et rénové à un haut niveau de qualité",
+            "prix": "774 € par nuit",
+            "location": "Paris, Île-de-France, France",
+            "equipements": [
+                "Patio ou balcon",
+                "Climatisation",
+                "Cafetière",
+                "Cuisine",
+                "Télévision"
+            ],
+            "images": [
+                "../src/Images/an3_1.jpg",
+                "../src/Images/an3_2.jpg",
+                "../src/Images/an3_3.jpg",
+                "../src/Images/an3_4.jpg",
+                "../src/Images/an3_5.jpg",
+                "../src/Images/an3_6.jpg",
+                "../src/Images/an3_7.jpg",
+                "../src/Images/an3_8.jpg",
+                "../src/Images/an3_9.jpg",
+                "../src/Images/an3_10.jpg"
+            ],
+            "note" : 8
+        },
+        {
+            "id": 9,
+            "nom": "Cala Bona : merveilleux pays tropical caché à Canggu",
+            "description": "Cette ancienne propriété par Biombo Architects est magnifiquement nichée à Pererenan et n'est qu'à quelques pas des cafés, restaurants et plages bien connus. Cala Bona est une villa moderne qui se caractérise par des lignes pointues et un style contemporain qui offre un sentiment incomparable de vivre au milieu de la nature tout en combinant luxe, élégance et sens tropical tout en un. Cette exceptionnelle villa de quatre chambres dispose d'une piscine privée, d'une cuisine entièrement équipée et d'un salon.",
+            "prix": "495 € par nuit",
+            "location": "Kecamatan Mengwi, Bali, Indonésie",
+            "equipements": [
+                "Patio ou balcon : privé(s)",
+                "Climatisation : système split sans évacuation",
+                "Arrière-cour privée",
+                "Piscine Privé extérieure (disponible toute l'année, ouverture 24h/24)",
+                "Cuisine"
+            ],
+            "images": [
+                "../src/Images/an4_1.jpg",
+                "../src/Images/an4_2.jpg",
+                "../src/Images/an4_3.jpg",
+                "../src/Images/an4_4.jpg",
+                "../src/Images/an4_5.jpg",
+                "../src/Images/an4_6.jpg",
+                "../src/Images/an4_7.jpg",
+                "../src/Images/an4_8.jpg"
+            ],
+            "note" : 9
+        },
+        {
+            "id": 10,
+            "nom": "Følvika Eye (partie de Følvika Northern Retreat)",
+            "description": "Vue à 360 degrés depuis notre œil de Følvika. Convient à deux adultes - possibilité d'ajouter des matelas pour 1-2 enfants.",
+            "prix": "210 € par nuit",
+            "location": "Gildeskål, Nordland, Norvège",
+            "equipements": [
+                "Accès plage : privé(e)",
+                "Front de mer",
+                "Brasero",
+                "Patio ou balcon",
+                "Arrière-cour"
+            ],
+            "images": [
+                "../src/Images/an5_1.jpg",
+                "../src/Images/an5_2.jpg",
+                "../src/Images/an5_3.jpg",
+                "../src/Images/an5_4.jpg",
+                "../src/Images/an5_5.jpg"
+            ],
+            "note" : 10
+        }
+    ]
+}

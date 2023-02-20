@@ -4,11 +4,11 @@ import { RouterView } from 'vue-router';
 
 <template>
   <div id="app">
-    <!-- <header>
-      <header-row/>
+    <header>
+      <header-row />
+    </header>
+    <maison-card-row />
 
-    </header> -->
-    <RouterView/>
   </div>
 </template>
 
@@ -29,11 +29,8 @@ export default {
     FilterRow,
     RouterView
     // FilterComponent
-    
   }
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
