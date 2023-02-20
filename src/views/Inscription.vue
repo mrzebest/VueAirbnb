@@ -23,7 +23,7 @@ export default {
 .contain{
   height: 70vh;
   width: 80vh;
-  background-color: #FBFCFC;
+  background-color: #F2F3F4;
   margin: auto;
   margin-top: 5%;
   border-radius: 2rem;
