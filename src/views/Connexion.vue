@@ -1,7 +1,7 @@
 <template>
     <div class="contain">    
         <form action="">
-            <img src="/Images/logo.png" class="logo-connexion"><br><br>
+            <img src="/Images/logo-airbnb.png" class="logo-connexion"><br><br>
             <input type="email" id="fname" name="firstname" placeholder="Adresse e-mail">
             
 
@@ -13,7 +13,7 @@
 
 <script>
 export default {
- 
+  
   }
 
 </script>
