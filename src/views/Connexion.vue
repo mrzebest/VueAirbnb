@@ -1,13 +1,16 @@
 <template>
     <div class="contain">    
+      <div class="contain-form">
         <form action="">
-            <img src="../assets/logo-airbnb.png" class="logo-connexion"><br><br>
-            <input type="email" id="fname" name="firstname" placeholder="Adresse e-mail">
-            
+              <img src="../assets/logo-airbnb.png" class="logo-connexion"><br>
+              <input type="email" id="fname" name="firstname" placeholder="Adresse e-mail">
+              
 
-            <input type="password" id="lname" name="lastname" placeholder="mot de passe">
-            <input type="Submit" value="Connexion">
+              <input type="password" id="lname" name="lastname" placeholder="mot de passe">
+              <input type="Submit" value="Connexion">
           </form>
+      </div>
+           
     </div>
 </template>
 
@@ -32,7 +35,6 @@ export default {
     justify-content: center;
     flex-direction: column;
 }
-
 
 form{
     display: flex;
@@ -77,6 +79,8 @@ input[type=submit]:hover {
 }
 
 .logo-connexion{
-    height:20vh;
+  height: 30vh;
 }
+
+
 </style>

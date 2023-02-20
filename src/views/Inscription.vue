@@ -1,7 +1,7 @@
 <template>
   <div class="contain">    
       <form action="">
-          <img src="../assets/logo-airbnb.png" class="logo-connexion"><br><br>
+          <img src="../assets/logo-airbnb.png" class="logo-connexion"><br>
           <input type="email" id="fname" name="firstname" placeholder="Adresse e-mail">
           
 
@@ -78,6 +78,7 @@ background-color: #dd7385;
 }
 
 .logo-connexion{
-  height:20vh;
+  height: 25vh;
+  width: 27vh;
 }
 </style>
