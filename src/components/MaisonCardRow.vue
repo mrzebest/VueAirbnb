@@ -2,7 +2,6 @@
   <div class="Container">
     <div class="maison--row">
       <div class="wrapper--card">
-
         <div v-for="annonce in annonces" class="maison--card">
           <div class="maison--image">
             <img :src="annonce.images[0]" class="img">
@@ -27,7 +26,6 @@
           </div>
         </div>
       </div>
-      <!-- </div> -->
     </div>
   </div>
 </template>
