@@ -1,7 +1,7 @@
 <template>
     <div class="contain">    
         <form action="">
-            <img src="/Images/logo-airbnb.png" class="logo-connexion"><br><br>
+            <img src="../assets/logo-airbnb.png" class="logo-connexion"><br><br>
             <input type="email" id="fname" name="firstname" placeholder="Adresse e-mail">
             
 
