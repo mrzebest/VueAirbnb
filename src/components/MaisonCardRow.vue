@@ -16,13 +16,15 @@
               </p>
 
             </div>
-            <p class="note">
+            <div class="container_note_prix">
+              <p class="note">
               {{ annonce.note }}
               <font-awesome-icon icon="fa-solid fa-star" />
             </p>
             <b class="prix">
               <i>{{ annonce.prix }}</i>
             </b>
+            </div>
           </div>
         </div>
       </div>
@@ -54,6 +56,11 @@ export default {
 
 <style lang="scss">
 .maison--row {
+  .container_note_prix{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
   .wrapper--card {
     // display: flex;
     // align-items: center;
@@ -92,12 +99,15 @@ export default {
     width: 100%;
     height: 35vh;
     border-radius: 10px;
+    
   }
 
   .maison--informations {
     .top {
       margin: 10px 0;
       justify-content: space-between;
+      align-items: center;
+      
 
     }
   }
