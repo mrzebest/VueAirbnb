@@ -5,38 +5,25 @@
 
         <div v-for="annonce in annonces" class="maison--card">
           <div class="maison--image">
-            <!-- <div v-for="img in annonce.images">
-                                                          <img :src="img" class="img">
-                                                      </div> -->
             <img :src="annonce.images[0]" class="img">
           </div>
           <div class="maison--informations">
             <div class="top">
-              <p class="name">
-                <b> {{ annonce.nom }}</b>
+              <p class="location">
+                {{ annonce.location }}
               </p>
-              <p class="desc">
-                {{ annonce.description }}
+              <p class="name">
+                {{ annonce.nom }}
               </p>
 
             </div>
-            <p class="location">
-              Basé à :
-              {{ annonce.location }}
-            </p>
-            <p class="equipements">
-              Équipements :
-              <span v-for="equip in annonce.equipements">
-                {{ equip }},
-              </span>
-            </p>
             <p class="note">
-              <span>
-                Note :
-                {{ annonce.note }}
-              </span>
+              {{ annonce.note }}
               <font-awesome-icon icon="fa-solid fa-star" />
             </p>
+            <b class="prix">
+              <i>{{ annonce.prix }}</i>
+            </b>
           </div>
         </div>
       </div>
@@ -87,8 +74,7 @@ export default {
 }
 
 .maison--card {
-  width: 50%;
-  height: 50;
+  width: 30%;
   padding: 10px;
 
   p {
@@ -106,15 +92,14 @@ export default {
   }
 
   .img {
-    width: 50%;
-    height: 25vh;
+    width: 100%;
+    height: 35vh;
     border-radius: 10px;
   }
 
   .maison--informations {
     .top {
       margin: 10px 0;
-      text-align: center;
       justify-content: space-between;
 
     }
