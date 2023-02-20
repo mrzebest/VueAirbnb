@@ -5,7 +5,6 @@
     </header>
     <filter-row/>
     <maison-card-row/>
-    <maison-card-row/>
     <!-- <router-view/> -->
   </div>
 </template>
